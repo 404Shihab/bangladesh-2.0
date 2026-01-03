@@ -56,3 +56,26 @@ header .logo h2{
     font-size: 48px;
     margin-bottom: 20px;
 }
+#july-movement {
+    padding: 50px;
+    background-color:#333;
+    text-align: center;
+    color: white;
+}
+#july-movement h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+#july-movement p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+#july-movement a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
