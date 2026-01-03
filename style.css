@@ -25,3 +25,34 @@ header .logo h2{
     vertical-align: middle;
     margin-left: 10px;
 }
+#home
+{
+    background-image: url(images/home.webp);
+    height:100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+#home .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+#home .home-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    z-index: 1;
+}
+#home .home-content h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
