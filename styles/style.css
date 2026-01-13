@@ -27,7 +27,7 @@ header .logo h2{
 }
 #home
 {
-    background-image: url(images/home.webp);
+    background-image: url(/images/home.webp);
     height:100vh;
     background-size: cover;
     background-position: center;
@@ -57,7 +57,7 @@ header .logo h2{
     margin-bottom: 20px;
 }
 #july-movement {
-    padding: 50px;
+    padding: 25px;
     background-color:#333;
     text-align: center;
     color: white;
@@ -71,11 +71,62 @@ header .logo h2{
     line-height: 1.6;
     margin-bottom: 20px;
 }
-#july-movement a {
+#july-movement a 
+{
     display: inline-block;
     padding: 10px 20px;
     background-color: #4CAF50;
     color: white;
     text-decoration: none;
     border-radius: 5px;
+}
+#july-movement a:hover 
+{
+    background-color: #3a833e;
+}
+
+#timeline 
+{
+    padding: 80px 10%;
+    background: #f9f9f9;
+}
+
+.section-title 
+{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.timeline 
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 25px;
+}
+
+.timeline-box 
+{
+    background: white;
+    padding: 25px;
+    border-left: 5px solid #4CAF50;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.timeline-box .date 
+{
+    font-weight: bold;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.timeline-box h3 
+{
+    margin-bottom: 10px;
+}
+
+.timeline-box.highlight 
+{
+    border-left-color: red;
+    background: #fff5f5;
 }
