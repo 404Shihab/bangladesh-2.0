@@ -27,7 +27,7 @@ header .logo h2{
 }
 #home
 {
-    background-image: url(/images/home.webp);
+    background-image: url(./images/home.webp);
     height:100vh;
     background-size: cover;
     background-position: center;
